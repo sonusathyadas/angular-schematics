@@ -1,0 +1,20 @@
+{
+    "$schema": "http://json-schema.org/schema",
+    "$id": "GreeterSchema",
+    "title": "Greeter Schema",
+    "type": "object",
+    "description": "Print a personalized greet message",
+    "properties": {
+        "name": {
+            "type": "string",
+            "description": "Name of the person you want to greet",
+            "$default": {
+                "$source": "argv",
+                "index": 0
+            }
+        }
+    },
+    "required": [
+        "name"
+    ]
+}

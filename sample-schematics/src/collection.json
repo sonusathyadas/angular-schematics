@@ -1,0 +1,24 @@
+{
+  "$schema": "../node_modules/@angular-devkit/schematics/collection-schema.json",
+  "schematics": {
+    "sample-schematics": {
+      "description": "A blank schematic.",
+      "factory": "./sample-schematics/index#sampleSchematics"
+    },
+    "greeter": {
+      "description": "A blank schematic.",
+      "factory": "./greeter/index#greeter",
+      "schema": "./greeter/schema.json"
+    },
+    "http-resource": {
+      "description": "A blank schematic.",
+      "factory": "./http-resource/index#httpResource",
+      "schema": "./http-resource/schema.json"
+    },
+    "ng-add": {
+      "description": "Ng Add Schematics for http-resource",
+      "factory": "./ng-add/index#ngAdd",
+      "schema": "./http-resource/schema.json"
+    }
+  }
+}
