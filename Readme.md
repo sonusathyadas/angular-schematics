@@ -604,3 +604,5 @@ ng add @sample/schematics services/employee --url http://somedomain.com/api/empl
 You can see the service class and the model interface are created in the project folder. 
 
 ### Happy Coding!!!!
+
+https://github.com/sonusathyadas/angular-schematics/blob/0e118948fae7ca795c137875af91e3f07c2da088/sample-schematics/package.json 
