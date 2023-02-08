@@ -605,4 +605,3 @@ You can see the service class and the model interface are created in the project
 
 ### Happy Coding!!!!
 
-https://github.com/sonusathyadas/angular-schematics/blob/dcdc9f5f0217a99d8c03beb2033d0268eea42e13/sample-schematics/src/ng-add/index.ts#L2-L11
